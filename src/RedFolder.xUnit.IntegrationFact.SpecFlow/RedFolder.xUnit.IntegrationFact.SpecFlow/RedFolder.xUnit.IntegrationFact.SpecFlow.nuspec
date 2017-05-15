@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RedFolder.xUnit.IntegrationFact.SpecFlow</id>
+    <version>0.0.0</version>
+    <title>SpecFlow Generator plugin to utilise RedFolder.xUnit.IntegrationFact</title>
+    <authors>Red-Folder</authors>
+    <owners>Red-Folder</owners>
+    <licenseUrl>https://raw.githubusercontent.com/Red-Folder/RedFolder.xUnit.IntegrationFact.SpecFlow/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Red-Folder/RedFolder.xUnit.IntegrationFact.SpecFlow</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>For use with custom RedFolder.xUnit.IntegrationFact attribute.  This plugin automatically generates .cs code to use the IntegrationFact rather than the standard xUnit Fact.</description>
+    <copyright>Copyright 2017</copyright>
+    <tags>xunit specflow</tags>
+    <dependencies>
+      <dependency id="RedFolder.xUnit.IntegrationFact" version="0.0.303-alpha" />
+      <dependency id="SpecFlow.CustomPlugin" version="2.2.0-preview20161020" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\RedFolder.xUnit.IntegrationFact.SpecFlow.dll" target="lib\RedFolder.xUnit.IntegrationFact.SpecFlow.dll" />
+    <file src="bin\Release\Assets\App.config.install.xdt" target="content\App.config.install.xdt" />
+    <file src="bin\Release\Assets\App.config.uninstall.xdt" target="content\App.config.uninstall.xdt" />
+  </files>
+</package>
