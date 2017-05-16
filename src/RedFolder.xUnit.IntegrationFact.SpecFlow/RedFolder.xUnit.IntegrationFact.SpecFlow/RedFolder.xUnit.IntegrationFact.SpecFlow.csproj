@@ -86,12 +86,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <Content Include="Assets\App.config.install.xdt">
+    <None Include="Assets\App.config.install.xdt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\App.config.uninstall.xdt">
+    </None>
+    <None Include="Assets\App.config.uninstall.xdt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </None>
     <None Include="packages.config" />
     <None Include="RedFolder.xUnit.IntegrationFact.SpecFlow.nuspec" />
   </ItemGroup>
