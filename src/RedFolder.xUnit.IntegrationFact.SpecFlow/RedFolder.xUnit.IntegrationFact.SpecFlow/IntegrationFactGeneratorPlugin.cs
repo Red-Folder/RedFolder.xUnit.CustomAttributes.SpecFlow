@@ -1,7 +1,10 @@
 ﻿using TechTalk.SpecFlow.Generator.Plugins;
 using TechTalk.SpecFlow.Generator.UnitTestProvider;
+using TechTalk.SpecFlow.Infrastructure;
 
-namespace RedFolder.xUnit.IntegrationFact.SpecFlow
+[assembly: GeneratorPlugin(typeof(RedFolder.xUnit.IntegrationFact.SpecFlowPlugin.IntegrationTestAttributeGeneratorPlugin))]
+
+namespace RedFolder.xUnit.IntegrationFact.SpecFlowPlugin
 {
     public class IntegrationTestAttributeGeneratorPlugin
     {
