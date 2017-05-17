@@ -18,8 +18,10 @@
     </dependencies>
   </metadata>
   <files>
+    
     <file src="bin\Release\RedFolder.xUnit.IntegrationFact.SpecFlowPlugin.dll" target="lib\RedFolder.xUnit.IntegrationFact.SpecFlowPlugin.dll" />
     <file src="bin\Release\Assets\App.config.install.xdt" target="content\App.config.install.xdt" />
     <file src="bin\Release\Assets\App.config.uninstall.xdt" target="content\App.config.uninstall.xdt" />
   </files>
+  
 </package>
