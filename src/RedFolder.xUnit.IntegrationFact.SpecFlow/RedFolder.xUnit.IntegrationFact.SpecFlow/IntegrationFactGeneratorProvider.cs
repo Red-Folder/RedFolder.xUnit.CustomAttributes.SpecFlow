@@ -12,7 +12,7 @@ namespace RedFolder.xUnit.IntegrationFact.SpecFlowPlugin
     {
         private const string FEATURE_TITLE_PROPERTY_NAME = "FeatureTitle";
         private const string DESCRIPTION_PROPERTY_NAME = "Description";
-        private const string FACT_ATTRIBUTE = "RedFolder.Xunit.IntegrationTestAttribute";
+        private const string FACT_ATTRIBUTE = "RedFolder.xUnit.IntegrationFact.IntegrationFactAttribute";
         private const string FACT_ATTRIBUTE_SKIP_PROPERTY_NAME = "Skip";
         internal const string SKIP_REASON = "Ignored";
 
