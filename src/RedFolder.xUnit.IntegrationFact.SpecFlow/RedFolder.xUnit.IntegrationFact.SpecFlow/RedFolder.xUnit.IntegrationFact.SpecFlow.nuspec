@@ -13,7 +13,7 @@
     <copyright>Copyright 2017</copyright>
     <tags>xunit specflow</tags>
     <dependencies>
-      <dependency id="RedFolder.xUnit.IntegrationFact" version="0.0.303-alpha" />
+      <dependency id="RedFolder.xUnit.IntegrationFact" version="0.0.316-alpha" />
       <dependency id="SpecFlow.CustomPlugin" version="2.2.0-preview20161020" />
     </dependencies>
   </metadata>
