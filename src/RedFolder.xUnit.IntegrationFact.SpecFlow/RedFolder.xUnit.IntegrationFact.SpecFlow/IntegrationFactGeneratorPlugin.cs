@@ -6,7 +6,7 @@ using TechTalk.SpecFlow.Infrastructure;
 
 namespace RedFolder.xUnit.IntegrationFact.SpecFlowPlugin
 {
-    public class IntegrationTestAttributeGeneratorPlugin
+    public class IntegrationTestAttributeGeneratorPlugin: IGeneratorPlugin
     {
         public void Initialize(GeneratorPluginEvents generatorPluginEvents, GeneratorPluginParameters generatorPluginParameters)
         {
