@@ -3,7 +3,7 @@
   <metadata>
     <id>RedFolder.xUnit.IntegrationFact.SpecFlow</id>
     <version>0.0.0</version>
-    <title>SpecFlow Generator plugin to utilise RedFolder.xUnit.IntegrationFact</title>
+    <title>RedFolder.xUnit.IntegrationFact.SpecFlow</title>
     <authors>Red-Folder</authors>
     <owners>Red-Folder</owners>
     <licenseUrl>https://raw.githubusercontent.com/Red-Folder/RedFolder.xUnit.IntegrationFact.SpecFlow/master/LICENSE</licenseUrl>
@@ -13,7 +13,7 @@
     <copyright>Copyright 2017</copyright>
     <tags>xunit specflow</tags>
     <dependencies>
-      <dependency id="RedFolder.xUnit.IntegrationFact" version="0.0.316-alpha" />
+      <dependency id="RedFolder.xUnit.IntegrationFact" version="0.0.320-alpha" />
       <dependency id="SpecFlow.CustomPlugin" version="2.2.0-preview20161020" />
     </dependencies>
   </metadata>

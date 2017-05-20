@@ -35,7 +35,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="RedFolder.xUnit.IntegrationFact, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RedFolder.xUnit.IntegrationFact.0.0.316-alpha\lib\RedFolder.xUnit.IntegrationFact.dll</HintPath>
+      <HintPath>..\packages\RedFolder.xUnit.IntegrationFact.0.0.320-alpha\lib\RedFolder.xUnit.IntegrationFact.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
